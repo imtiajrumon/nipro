@@ -1,0 +1,256 @@
+/*common start*/
+body{
+	color: #8e8e8e
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: white;
+	padding: 20px 0;
+}
+.logo{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.menu ul li{
+	padding-left: 20px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color: black;
+	font-weight: 700;
+}
+.btn_dd{
+	border: 0;
+}
+.btn_dd i{
+	font-size: 16px         ;
+	color: #8e8e8e;
+}
+.btn_dd::after{
+	display: none;
+}
+
+.ddm{
+	width: 300px;
+	border-radius: 0;
+	padding: 10px 10px;
+}
+.ddm[data-bs-popper] {
+	top: 53px;
+	left: -248px;
+	margin-top: 0;
+	border-radius: 0;
+}
+.d_input{
+	width: 100%;
+	height: 45px;
+	border: 0;
+}
+.d_input:focus{
+	box-shadow: none;
+}
+.d_btn{
+	width: 100%;
+	height: 45px;
+	background-color: transparent;
+	border: 0;
+}
+.d_btn i{
+	color: #8e8e8e;
+}
+/*slider start*/
+.slider{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_h1{
+	font-size: 57px;
+	font-weight: 700;
+	padding-bottom: 30px;
+
+}
+.b_p{
+	margin: 0 90px 40px 0;
+}
+.s_item{
+	padding: 200px 0 200px;
+	color: white;
+}
+.b_b{
+    border: none;
+    width: 149px;
+    height: 35px;
+}
+.p_n{
+	border: 0;
+    background: transparent;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}
+.p_n:hover{
+	color: black;
+	font-weight: 500;
+}
+/*sarvice*/
+.c_shape{
+	height: 50px;
+	width: 2px;
+	background-color: black;
+}
+.c_h1{
+	color: black;
+	font-size: 30px;
+}
+.s_p{
+	padding-top: 40px;
+}
+.c_padd{
+	padding-bottom: 100px;
+}
+.s_sarvic{
+	border: 1px solid #8e8e8e;
+	margin-top: 70px;
+	padding: 70px 15px 35px;
+}
+.s_icon{
+	margin: -91px auto 0;
+	background-color: white;
+	width: 70px;
+	
+}
+
+.s_icon i{
+	font-size: 60px;
+}
+.s_h2{
+	margin: 30px 0 18px;
+	font-size: 20px;
+	color: black;
+}
+.s_p2{
+	margin-bottom: 40px;
+}
+.s_ab{
+	color: #8e8e8e;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.s_ab a{
+}
+.s_ab span i{
+	padding-left: 10px;
+}
+.s_sarvic:hover{
+	border: 1px solid #333333;
+}
+.s_sarvic:hover .s_icon i{
+	color: black;
+}
+.s_sarvic:hover .s_ab{
+	color: black;
+}
+/*about us*/
+.a_su{
+	padding-bottom: 100px;
+}
+.a_h1{
+	text-transform: uppercase;
+	color: black;
+	padding-bottom: 30px;
+}
+.a_p{
+	line-height: 28px;
+	padding-bottom: 14px;
+}
+.a_p1{
+	line-height: 28px;
+	padding-bottom: 37px;
+}
+.b_b1{
+	border: 1px solid black;
+	border-radius: 0;
+}
+/*recent work*/
+.rw_s{
+	background-color: #f8f8f8;
+}
+.RW{
+	padding: 120px 0 60px;
+}
+.RW ul li a{
+	color: #8e8e8e;
+}
+.RW ul li :hover{
+	border: 1px solid black;
+	color: black;
+}
+.Rw_box{
+	padding-bottom: 100px;
+}
+/*Why Choose Nipro*/
+.choose{
+	padding: 100px 0 50px;
+}
+.co_h2{
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.co_h2 span i{
+	font-size: 48px;
+	padding-right: 10px;
+}
+.co_p{
+	margin-bottom: 40px;
+}
+.shape{
+	width: 90%;
+	height: 1px;
+	background-color: #8e8e8e;
+}
+.hover_1{
+	padding-bottom: 50px;
+}
+.hover_1:hover .co_h2{
+	color: black;
+}
+.hover_1:hover .shape{
+	background-color: black;
+	height: 2px;
+}
+/*profile*/
+.profile{
+	background-image: url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+.p_sh{
+	background-color: white;
+}
+/*people*/
+.paddi{
+	padding: 120px 0 100px;
+}
+.people{}
+.p_img{}
+.p_img img{
+	width: 100%;
+}
+.ph2{
+	font-size: 23px;
+	font-weight: 700;
+	padding: 10px 0;
+	color: black;
+
+}
+.pp{
+	padding-bottom: 20px;
+}
+
